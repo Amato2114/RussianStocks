@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /admin/
-Sitemap: https://russianstocks-ai.streamlit.app/sitemap.xml
+Sitemap: https://amato2114.github.io/RussianStocks/sitemap.xml
