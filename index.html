@@ -9,6 +9,8 @@
     <meta property="og:description" content="AI-прогнозы акций MOEX: нейросеть для трейдеров. Бесплатно SBER/GAZP. Премиум с уведомлениями. Не инвестиционный совет (ФЗ-39).">
     <meta property="og:url" content="https://russianstocks-ai.streamlit.app/">
     <meta property="og:image" content="https://via.placeholder.com/1200x630/001F3F/FFFFFF?text=RussianStocks+AI" loading="lazy" alt="AI-прогноз цен акций SBER на MOEX">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Добавлена иконка для сайта (favicon) -->
+    <link rel="apple-touch-icon" href="favicon.png" sizes="180x180"> <!-- Для iOS, если нужно -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -213,5 +215,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
     <script>document.addEventListener('DOMContentLoaded',()=>{window.addEventListener('scroll',()=>{document.querySelector('.navbar').classList.toggle('scrolled',window.scrollY>50);});document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{e.preventDefault();const t=document.querySelector(a.getAttribute('href'));if(t)window.scrollTo({top:t.offsetTop-80,behavior:'smooth'});});});if(!localStorage.getItem('cookiesAccepted')){const banner=document.createElement('div');banner.className='cookie-banner';banner.setAttribute('role','dialog');banner.setAttribute('aria-live','polite');banner.innerHTML='<div class="container"><p>Мы используем файлы cookie для оптимизации работы сайта и повышения удобства пользователей в соответствии с ФЗ-152. <a href="privacy.html" rel="noopener">Подробнее</a></p><button class="btn btn-primary" id="acceptBtn">Принять</button></div>';document.body.appendChild(banner);const acceptBtn=banner.querySelector('#acceptBtn');acceptBtn.setAttribute('aria-label','Принять использование файлов cookie');acceptBtn.addEventListener('click',acceptCookies);setTimeout(()=>{banner.classList.add('show');},100);document.body.style.paddingBottom='80px';}function acceptCookies(){localStorage.setItem('cookiesAccepted','true');const banner=document.querySelector('.cookie-banner');if(banner){banner.style.transform='translateY(100%)';setTimeout(()=>{banner.remove();document.body.style.paddingBottom='0';},300);}}});</script>
 </body>
-
 </html>
